@@ -40,6 +40,7 @@ export default function SearchInput({ search, setSearch }: searchInputProps) {
       <input
         type="text"
         className="focus:outline-none font-semibold"
+        placeholder="Dubai"
         style={{ color: colors.text }}
         value={search}
         onChange={(e) => setSearch(e.target.value)}
